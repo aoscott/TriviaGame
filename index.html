@@ -1,83 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Movie Firearms Trivia</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-<body>
-	<!--<h1>Movie Firearms Trivia</h1> -->
-<div class="container">
-  <div class="jumbotron">
-    <h1>Movie Firearms Trivia</h1>      
-    <div>
-	  		<p class="question">In the movie Terminator what firearm did Arnold Schwarzenegger use to attempt to assaninate Sarah Conner at club Tech Noir?</p>
-	    	<ul>
-	    	<input class="answer" type="radio" name="q1" value="1">
-	        <label id="correctString1">AMT Hardballer .45 Longslide</label>
-	    	<br>
-	        <input class="answer" type="radio" name="q1" value="0">
-	        <label>Smith & Wesson Model 15 - .38 Special</label>
-	        <br>
-	        <input class="answer" type="radio" name="q1" value="0">
-	        <label>Ruger Security Six with 4" barrel</label>
-	        <br>
-	        <input class="answer" type="radio" name="q1" value="0">
-	        <label>IMI Uzi - 9x19mm</label>
-    		</ul>
-	  	</div>
-        <div>
-	  		<p class="question">In Dirty Harry what iconic firearm Clint Eastwood carry?</p>
+		<title>Dynamic Quiz Project</title>
+		<link type='text/css' rel='stylesheet' href='assets/css/style.css'/>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open Sans"/>
+	</head>
+	<body>
+		<div id='container'>
+			<div id='title'>
+				<h1>Learning Js Properly: Project #1 - Dynamic Quiz</h1>
+			</div>
+   			<br/>
+  			<div id='quiz'></div>
+    		<div class='button' id='next'><a href='#'>Next</a></div>
+    		<div class='button' id='prev'><a href='#'>Prev</a></div>
+    		<div class='button' id='start'> <a href='#'>Start Over</a></div>
+    		<!-- <button class='' id='next'>Next</a></button>
+    		<button class='' id='prev'>Prev</a></button>
+    		<button class='' id='start'> Start Over</a></button> -->
+    	</div>
 
-	    	<ul>
-	        <input class="answer" type="radio" name="q2" value="0">
-	        <label>Walther P38 - 9x19mm</label>
-	        <br>
-	        <input class="answer" type="radio" name="q2" value="1">
-	        <label id="correctString2">Smith & Wesson Model 29 with 6 1/2" barrel - .44 Magnum</label>
-	        <br>
-	        <input class="answer" type="radio" name="q2" value="0">
-	        <label>Colt Detective Special - .38spl</label>
-	        <br>
-	        <input class="answer" type="radio" name="q2" value="0">
-	        <label>MP40 - 9x19mm</label>
-	    	</ul>
-	  	</div>
-        <div>
-	  		<p class="question">In First Blood which was the firearm of choice Sylvester Stallone used to shoot up the Hope Sherriff Station?</p>
-
-	    	<ul>
-	        <input class="answer" type="radio" name="q3" value="0">
-	        <label>M16A1 - 5.56x45mm</label>
-	        <br>
-	        <input class="answer" type="radio" name="q3" value="1">
-	        <label id="correctString3">M60 - 7.62x51mm</label>
-	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
-	        <label>Heckler & Koch HK93A2 - 5.56x45mm</label>
-	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
-	        <label>Winchester Model 88 - 243</label>
-	    	</ul>
-		</div>
-        <div>
-	  		<p class="question">At the beginning of Star Wars: A New Hope which firearm is used by Carrie Fisher when she tried to escape the storm troopers?</p>
-
-	    	<ul>
-	        <input class="answer" type="radio" name="q4" value="0">
-	        <label>Heckler & Koch P9S</label>
-	        <br>
-	        <input class="answer" type="radio" name="q4" value="1">
-	        <label id="correctString4">Vostok Margolin .22LR</label>
-	        <br>
-	        <input class="answer" type="radio" name="q4" value="0">
-	        <label>Mauser C96 - 9mm</label>
-	        <br>
-	        <input class="answer" type="radio" name="q4" value="0">
-	        <label>Lee-Enfield No.1 Mk.III</label>
-    		</ul>
-	  	</div>
-  </div>
-	
-</body>
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+		<script type="text/javascript" src='questions.json'></script>
+		<script type='text/javascript' src='assets/javascript/app.js'></script>
+	</body>
 </html>
