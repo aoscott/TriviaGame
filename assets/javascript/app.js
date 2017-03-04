@@ -1,24 +1,20 @@
 (function() {
   var questions = [{
-    question: "What is 2*5?",
-    choices: [2, 5, 10, 15, 20],
-    correctAnswer: 2
-  }, {
-    question: "What is 3*6?",
-    choices: [3, 6, 9, 12, 18],
-    correctAnswer: 4
-  }, {
-    question: "What is 8*9?",
-    choices: [72, 99, 108, 134, 156],
+    question: "In the movie Terminator what firearm did Arnold Schwarzenegger use to attempt to assaninate Sarah Conner at club Tech Noir?",
+    choices: ["AMT Hardballer .45 Longslide", "Smith & Wesson Model 15 - .38 Special", "Ruger Security Six", "IMI Uzi - 9x19mm"],
     correctAnswer: 0
   }, {
-    question: "What is 1*7?",
-    choices: [4, 5, 6, 7, 8],
-    correctAnswer: 3
+    question: "In Dirty Harry what iconic firearm Clint Eastwood carry?",
+    choices: ["Walther P38 - 9x19mm", "Smith & Wesson Model 29 - .44 Magnum", "Colt Detective Special - .38spl", "MP40 - 9x19mm"],
+    correctAnswer: 1
   }, {
-    question: "What is 8*8?",
-    choices: [20, 30, 40, 50, 64],
-    correctAnswer: 4
+    question: "In First Blood which was the firearm of choice Sylvester Stallone used to shoot up the Hope Sherriff Station?",
+    choices: ["M16A1 - 5.56x45mm", "M60 - 7.62x51mm", "Heckler & Koch HK93A2 - 5.56x45mm", "Winchester Model 88 - 243"],
+    correctAnswer: 1
+  }, {
+    question: "At the beginning of Star Wars: A New Hope which firearm is used by Carrie Fisher when she tried to escape the storm troopers?",
+    choices: ["Heckler & Koch P9S", "Mauser C96 - 9mm", "Lee-Enfield No.1 Mk.III", "Vostok Margolin .22LR"],
+    correctAnswer: 3
   }];
   
   var questionCounter = 0; //Tracks question number
